@@ -42,3 +42,43 @@ p {
 #contact button:hover {
     background-color: #45a049;
 }
+
+
+/* Contact Section */
+#contact {
+    background-color: #f2f2f2;  /* Light grey background */
+    padding: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contact h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#contact input, #contact textarea {
+    width: 50%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact button {
+    padding: 12px 25px;
+    background-color: #4CAF50;  /* Green button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact button:hover {
+    background-color: #45a049;  /* Darker green on hover */
+}
