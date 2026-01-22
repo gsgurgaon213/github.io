@@ -1,7 +1,7 @@
+/* ===== Smooth Scroll ===== */
 html {
     scroll-behavior: smooth;
 }
-
 
 /* ===== Body & General ===== */
 body {
@@ -13,14 +13,14 @@ body {
 
 /* ===== Navigation Bar ===== */
 nav {
-    position: fixed;       /* Keeps nav at top */
+    position: fixed;
     top: 0;
     width: 100%;
     background-color: #333;
     overflow: hidden;
     padding: 10px 0;
     text-align: center;
-    z-index: 1000;         /* Ensure nav is above content */
+    z-index: 1000;
 }
 
 nav a {
@@ -36,15 +36,41 @@ nav a:hover {
     border-radius: 5px;
 }
 
-/* ===== Section Spacing ===== */
-section, h1 {
-    padding-top: 80px;    /* Space so nav does not cover content */
+/* ===== Sections Spacing ===== */
+section, header {
+    padding-top: 80px;
     margin-bottom: 50px;
 }
 
-/* ===== Welcome Section ===== */
-h1 {
+/* ===== Hero Section ===== */
+header h1 {
     color: darkblue;
+}
+
+header p {
+    color: black;
+    font-size: 20px;
+}
+
+header button {
+    padding: 12px 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+header button:hover {
+    background-color: #45a049;
+}
+
+.hero-image {
+    width: 80%;
+    max-width: 1000px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 /* ===== About Section ===== */
@@ -59,9 +85,38 @@ h1 {
     line-height: 1.6;
 }
 
+.about-image {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/* ===== Services Section ===== */
+#services h2 {
+    color: #333;
+}
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.services-image {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
 /* ===== Contact Section ===== */
 #contact {
-    background-color: #f2f2f2;  /* Light grey background */
+    background-color: #f2f2f2;
     padding: 40px;
 }
 
@@ -84,7 +139,7 @@ h1 {
 
 #contact button {
     padding: 12px 25px;
-    background-color: #4CAF50;  /* Green button */
+    background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
@@ -93,7 +148,7 @@ h1 {
 }
 
 #contact button:hover {
-    background-color: #45a049;  /* Darker green on hover */
+    background-color: #45a049;
 }
 
 /* ===== Footer ===== */
@@ -113,4 +168,3 @@ footer a {
 footer a:hover {
     color: #4CAF50;
 }
-
