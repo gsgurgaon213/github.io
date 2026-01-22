@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* ===== Body & General ===== */
 body {
     background-color: lightblue;
@@ -90,3 +95,22 @@ h1 {
 #contact button:hover {
     background-color: #45a049;  /* Darker green on hover */
 }
+
+/* ===== Footer ===== */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #4CAF50;
+}
+
